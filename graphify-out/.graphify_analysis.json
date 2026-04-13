@@ -1,0 +1,49 @@
+{
+  "communities": {
+    "0": [
+      "page_handleclick",
+      "page_handler",
+      "users_joelpedroche_documents_github_adsense_clone_app_page_tsx"
+    ],
+    "1": [
+      "page_handlesave",
+      "users_joelpedroche_documents_github_adsense_clone_app_admin_page_tsx"
+    ],
+    "2": [
+      "route_post",
+      "users_joelpedroche_documents_github_adsense_clone_app_api_update_route_ts"
+    ],
+    "3": [
+      "users_joelpedroche_documents_github_adsense_clone_next_env_d_ts"
+    ],
+    "4": [
+      "users_joelpedroche_documents_github_adsense_clone_next_config_ts"
+    ],
+    "5": [
+      "users_joelpedroche_documents_github_adsense_clone_app_layout_tsx"
+    ]
+  },
+  "cohesion": {
+    "0": 0.67,
+    "1": 1.0,
+    "2": 1.0,
+    "3": 1.0,
+    "4": 1.0,
+    "5": 1.0
+  },
+  "gods": [
+    {
+      "id": "page_handler",
+      "label": "handler()",
+      "edges": 2
+    }
+  ],
+  "surprises": [],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `handler()` connect `handleClick()` to `handleSave()`?",
+      "why": "High betweenness centrality (0.111) - this node is a cross-community bridge."
+    }
+  ]
+}

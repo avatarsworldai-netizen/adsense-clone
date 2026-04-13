@@ -1,0 +1,160 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "next-env.d.ts",
+      "file_type": "code",
+      "source_file": "/Users/joelpedroche/Documents/Github/adsense-clone/next-env.d.ts",
+      "source_location": "L1",
+      "id": "users_joelpedroche_documents_github_adsense_clone_next_env_d_ts",
+      "community": 3,
+      "norm_label": "next-env.d.ts"
+    },
+    {
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "/Users/joelpedroche/Documents/Github/adsense-clone/next.config.ts",
+      "source_location": "L1",
+      "id": "users_joelpedroche_documents_github_adsense_clone_next_config_ts",
+      "community": 4,
+      "norm_label": "next.config.ts"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "/Users/joelpedroche/Documents/Github/adsense-clone/app/layout.tsx",
+      "source_location": "L1",
+      "id": "users_joelpedroche_documents_github_adsense_clone_app_layout_tsx",
+      "community": 5,
+      "norm_label": "layout.tsx"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "/Users/joelpedroche/Documents/Github/adsense-clone/app/page.tsx",
+      "source_location": "L1",
+      "id": "users_joelpedroche_documents_github_adsense_clone_app_page_tsx",
+      "community": 0,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "handler()",
+      "file_type": "code",
+      "source_file": "/Users/joelpedroche/Documents/Github/adsense-clone/app/admin/page.tsx",
+      "source_location": "L14",
+      "id": "page_handler",
+      "community": 0,
+      "norm_label": "handler()"
+    },
+    {
+      "label": "handleClick()",
+      "file_type": "code",
+      "source_file": "/Users/joelpedroche/Documents/Github/adsense-clone/app/page.tsx",
+      "source_location": "L72",
+      "id": "page_handleclick",
+      "community": 0,
+      "norm_label": "handleclick()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "/Users/joelpedroche/Documents/Github/adsense-clone/app/admin/page.tsx",
+      "source_location": "L1",
+      "id": "users_joelpedroche_documents_github_adsense_clone_app_admin_page_tsx",
+      "community": 1,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "handleSave()",
+      "file_type": "code",
+      "source_file": "/Users/joelpedroche/Documents/Github/adsense-clone/app/admin/page.tsx",
+      "source_location": "L25",
+      "id": "page_handlesave",
+      "community": 1,
+      "norm_label": "handlesave()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "/Users/joelpedroche/Documents/Github/adsense-clone/app/api/update/route.ts",
+      "source_location": "L1",
+      "id": "users_joelpedroche_documents_github_adsense_clone_app_api_update_route_ts",
+      "community": 2,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "/Users/joelpedroche/Documents/Github/adsense-clone/app/api/update/route.ts",
+      "source_location": "L6",
+      "id": "route_post",
+      "community": 2,
+      "norm_label": "post()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/joelpedroche/Documents/Github/adsense-clone/app/page.tsx",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_src": "users_joelpedroche_documents_github_adsense_clone_app_page_tsx",
+      "_tgt": "page_handler",
+      "source": "users_joelpedroche_documents_github_adsense_clone_app_page_tsx",
+      "target": "page_handler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/joelpedroche/Documents/Github/adsense-clone/app/page.tsx",
+      "source_location": "L72",
+      "weight": 1.0,
+      "_src": "users_joelpedroche_documents_github_adsense_clone_app_page_tsx",
+      "_tgt": "page_handleclick",
+      "source": "users_joelpedroche_documents_github_adsense_clone_app_page_tsx",
+      "target": "page_handleclick",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/joelpedroche/Documents/Github/adsense-clone/app/admin/page.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "users_joelpedroche_documents_github_adsense_clone_app_admin_page_tsx",
+      "_tgt": "page_handler",
+      "source": "page_handler",
+      "target": "users_joelpedroche_documents_github_adsense_clone_app_admin_page_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/joelpedroche/Documents/Github/adsense-clone/app/admin/page.tsx",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_src": "users_joelpedroche_documents_github_adsense_clone_app_admin_page_tsx",
+      "_tgt": "page_handlesave",
+      "source": "users_joelpedroche_documents_github_adsense_clone_app_admin_page_tsx",
+      "target": "page_handlesave",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/joelpedroche/Documents/Github/adsense-clone/app/api/update/route.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "users_joelpedroche_documents_github_adsense_clone_app_api_update_route_ts",
+      "_tgt": "route_post",
+      "source": "users_joelpedroche_documents_github_adsense_clone_app_api_update_route_ts",
+      "target": "route_post",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
